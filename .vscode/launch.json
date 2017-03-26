@@ -1,5 +1,6 @@
 {
     "version": "0.2.0",
+<<<<<<< HEAD
     "configurations": [
     {
         "name": "Python",
@@ -17,6 +18,22 @@
             "RedirectOutput"
         ]
     },
+=======
+    "configurations": [{
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": true,
+            "pythonPath": "${config.python.pythonPath}",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        },
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
         {
             "name": "Python",
             "type": "python",
@@ -24,9 +41,13 @@
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
             "program": "${file}",
+<<<<<<< HEAD
             "cwd": "${workspaceRoot}/day03",
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "cwd": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -48,9 +69,13 @@
                 "pythonPath": "${env.SPARK_HOME}/bin/spark-submit"
             },
             "program": "${file}",
+<<<<<<< HEAD
             "cwd": "${workspaceRoot}/day03",
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "cwd": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -64,9 +89,13 @@
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
             "module": "module.name",
+<<<<<<< HEAD
             "cwd": "${workspaceRoot}/day03",
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "cwd": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -80,10 +109,15 @@
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
             "program": "${file}",
+<<<<<<< HEAD
             "cwd": null,
             "console": "integratedTerminal",
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "cwd": "null",
+            "console": "integratedTerminal",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit"
@@ -96,10 +130,15 @@
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
             "program": "${file}",
+<<<<<<< HEAD
             "cwd": null,
             "console": "externalTerminal",
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "cwd": "null",
+            "console": "externalTerminal",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit"
@@ -111,14 +150,22 @@
             "request": "launch",
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
+<<<<<<< HEAD
             "program": "${workspaceRoot}/day03/manage.py",
             "cwd": "${workspaceRoot}/day03",
+=======
+            "program": "${workspaceRoot}/manage.py",
+            "cwd": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "args": [
                 "runserver",
                 "--noreload"
             ],
+<<<<<<< HEAD
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -133,16 +180,25 @@
             "stopOnEntry": false,
             "pythonPath": "${config.python.pythonPath}",
             "program": "fully qualified path fo 'flask' executable. Generally located along with python interpreter",
+<<<<<<< HEAD
             "cwd": "${workspaceRoot}/day03",
             "env": {
                 "FLASK_APP": "${workspaceRoot}/day03/quickstart/app.py"
+=======
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "FLASK_APP": "${workspaceRoot}/quickstart/app.py"
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             },
             "args": [
                 "run",
                 "--no-debugger",
                 "--no-reload"
             ],
+<<<<<<< HEAD
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -155,11 +211,17 @@
             "request": "launch",
             "stopOnEntry": false,
             "pythonPath": "${config.python.pythonPath}",
+<<<<<<< HEAD
             "program": "${workspaceRoot}/day03/run.py",
             "cwd": "${workspaceRoot}/day03",
             "args": [],
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+            "program": "${workspaceRoot}/run.py",
+            "cwd": "${workspaceRoot}",
+            "args": [],
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -167,6 +229,7 @@
             ]
         },
         {
+<<<<<<< HEAD
             "name": "Pyramid",
             "type": "python",
             "request": "launch",
@@ -186,20 +249,30 @@
             ]
         },
         {
+=======
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "name": "Watson",
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
             "pythonPath": "${config.python.pythonPath}",
+<<<<<<< HEAD
             "program": "${workspaceRoot}/day03/console.py",
             "cwd": "${workspaceRoot}/day03",
+=======
+            "program": "${workspaceRoot}/console.py",
+            "cwd": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "args": [
                 "dev",
                 "runserver",
                 "--noreload=True"
             ],
+<<<<<<< HEAD
             "env": null,
             "envFile": "${workspaceRoot}/day03/.env",
+=======
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
@@ -210,8 +283,13 @@
             "name": "Attach (Remote Debug)",
             "type": "python",
             "request": "attach",
+<<<<<<< HEAD
             "localRoot": "${workspaceRoot}/day03",
             "remoteRoot": "${workspaceRoot}/day03",
+=======
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": "${workspaceRoot}",
+>>>>>>> bd71979d3ed630a0069be1319953be0a625c1252
             "port": 3000,
             "secret": "my_secret",
             "host": "localhost"
