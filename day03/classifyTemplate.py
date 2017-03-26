@@ -149,7 +149,7 @@ def unitTest():
     assert(classifier.manhattan(nlNorm, classifier.data[-1][1]) == 0)
     print('Manhattan distance fn OK')
     # Brittainey Raven's nearest neighbor should be herself
-    
+
     result = classifier.nearestNeighbor(brNorm)
     assert(result[1][2]== br[2])
     # Nastia Liukin's nearest neighbor should be herself
@@ -163,7 +163,6 @@ def unitTest():
     assert(classifier.classify(cl[1]) == 'Basketball')
     assert(classifier.classify(nl[1]) == 'Gymnastics')
     print('Classify fn OK')
-
 
 
 unitTest()

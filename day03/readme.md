@@ -11,6 +11,5 @@
 2. 输入测试向量
     - 计算nearestneighbor
     - 返回推测结果
-> classifyTempalte.py:col = [v[1][columnNumber] for v in self.data]
 
-# 
+> classifyTempalte.py:col = [v[1][columnNumber] for v in self.data]

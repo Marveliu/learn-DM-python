@@ -34,6 +34,7 @@ music = {"Dr Dog/Fate": {"piano": 2.5, "vocals": 4, "beat": 3.5, "blues": 3, "gu
          "Black Eyed Peas/Rock That Body": {"piano": 2, "vocals": 5, "beat": 5, "blues": 1, "guitar": 2, "backup vocals": 2, "rap": 4},
          "Lady Gaga/Alejandro": {"piano": 1, "vocals": 5, "beat": 3, "blues": 2, "guitar": 1, "backup vocals": 2, "rap": 1}}
 
+# 曼哈顿距离
 def manhattan(rating1, rating2):
     """Computes the Manhattan distance. Both rating1 and rating2 are dictionaries
        of the form {'The Strokes': 3.0, 'Slightly Stoopid': 2.5}"""
@@ -46,7 +47,7 @@ def manhattan(rating1, rating2):
     return distance
 
 
-
+# 邻居
 def computeNearestNeighbor(username, users):
     """creates a sorted list of users based on their distance to username"""
     distances = []
@@ -67,9 +68,9 @@ def recommend(username, users):
     # now find bands neighbor rated that user didn't
     neighborRatings = users[nearest]
     userRatings = users[username]
+    
     for artist in neighborRatings:
         if not artist in userRatings:
             recommendations.append((artist, neighborRatings[artist]))
     # using the fn sorted for variety - sort is more efficient
     return sorted(recommendations, key=lambda artistTuple: artistTuple[1], reverse = True)
-
